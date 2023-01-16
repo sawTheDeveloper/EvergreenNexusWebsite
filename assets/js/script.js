@@ -140,7 +140,7 @@ const initAccordion = function (currentAccordion) {
 
 }
 
-for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); }
+for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); };
 
 
 const navLinks = document.querySelectorAll("nav a");
