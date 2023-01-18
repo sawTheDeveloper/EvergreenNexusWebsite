@@ -295,10 +295,12 @@ body.nav-active { overflow: hidden; }
 }
 
 .header.active .logo-light,
-.header .logo-dark { display: none; }
+.header .logo-dark { display: none;
+ }
 
 .header .logo-light,
-.header.active .logo-dark { display: block; }
+.header.active .logo-dark { display: block;
+ }
 
 .nav-open-btn {
   font-size: 3.5rem;

@@ -143,11 +143,3 @@ const initAccordion = function (currentAccordion) {
 for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); };
 
 
-const navLinks = document.querySelectorAll("nav a");
-navLinks.forEach(link => {
-    link.addEventListener("click", e => {
-        e.preventDefault();
-        const sectionId = e.target.getAttribute("href");
-        document.querySelector(sectionId).style.display = "block";
-    });
-});
